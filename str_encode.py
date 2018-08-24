@@ -1,7 +1,14 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-print('包含中文的str')
+s='包含中文的str'
 
+print 'original s=', s
+
+print u'中文'
+print u'中'
+print u'\u4e2d'
+
+print ''
 print(ord('A'))
 
 print('%2d-%02d' % (3, 1))
